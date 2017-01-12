@@ -24,7 +24,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Please Click"
+        android:text="Bring me to the second Activity"
         android:id="@+id/button"/>
 
 
