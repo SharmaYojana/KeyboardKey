@@ -9,6 +9,6 @@ import retrofit2.http.GET;
  */
 
 public interface KeyboardService {
-    @GET("classroom/photos/letter_C.jpg/")
+    @GET("/cgi-bin/1_11_2017_exam.pl")
    Call<Features> getFeatures();
 }

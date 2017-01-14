@@ -1,5 +1,7 @@
 package nyc.c4q.yojana.keyboardkey;
 
+import com.google.gson.annotations.SerializedName;
+
 import java.util.List;
 
 /**
@@ -7,11 +9,13 @@ import java.util.List;
  */
 
 public class Features {
-    boolean success;
-    private List<MyKeyboard> keyboard;
+    private boolean success;
 
-    public List <MyKeyboard> getKeyboardList(){
-        return keyboard;
+    @SerializedName("available keys") private List<Key> availableKeys;
+
+
+    public List <Key> getKeyboardList(){
+        return availableKeys;
     }
 
 }
